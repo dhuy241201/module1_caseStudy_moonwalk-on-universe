@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<style>
+    body{
+        margin: 0;
+        background-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+        height: 100vh;
+    }
+    #background1{
+        position: relative;
+        left: -1025px      
+    }
+</style>
+
+<canvas id="canvas" style="border: crimson;"></canvas>
+<img id="platform" src="./image/platform.png" alt="">
+<img id="hills" src="./image/hills.png" alt="">
+<img id="background" src="./image/background.png" alt="">
+<img id="platformsmall" src="./image/platformSmallTall.png" alt="">
+
+<img id="runleft" src="./image/spriteRunLeft.png" alt="">
+<img id="runright" src="./image/spriteRunRight.png" alt="">
+<img id="standleft" src="./image/spriteStandLeft.png" alt="">
+<img id="standright" src="./image/spriteStandRight.png" alt="">
+<img id="background1" src="./image/background1.png" alt="">
+<img id="stage" src="./image/stage.png" alt="">
+<!-- <img id="background1" onclick="startGame()" src="./image/background1.png" alt=""> -->
+
+
+
+<audio id="song" controls loop>
+    <source src="song.mp3" type="audio/mp3">
+</audio>
+<audio src="jump.mp3" id="jump"></audio>
+<audio src="mj.mp3" id="mj"></audio>
+<script type="module" src="./test.js"></script>
+<!-- <script>
+    function startGame(){
+    let backGround2 = document.getElementById('background1')
+    backGround2.style.display ='none';    
+}
+</script> -->
+</body>
+</html>
